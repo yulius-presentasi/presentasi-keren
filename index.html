@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Presentasi Reveal.js Saya</title>
+
+    <!-- Mengambil library Reveal.js langsung dari CDN -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    
+    <!-- Pilih tema di sini (Pilihan: black, white, league, beige, sky, night, serif, simple, solarized) -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- SLIDE 1: Halaman Utama -->
+            <section>
+                <h1>Judul Presentasi</h1>
+                <p>Dibuat menggunakan Reveal.js & GitHub</p>
+            </section>
+
+            <!-- SLIDE 2: Geser ke Kanan -->
+            <section>
+                <h2>Slide Kedua</h2>
+                <p>Ini adalah contoh teks paragraf di slide kedua.</p>
+            </section>
+
+            <!-- SLIDE 3: Slide Bertingkat (Bisa geser ke bawah) -->
+            <section>
+                <section>
+                    <h2>Slide Ketiga (Bagian Atas)</h2>
+                    <p>Tekan tanda panah bawah pada keyboard Anda ↓</p>
+                </section>
+                <section>
+                    <h2>Slide Ketiga (Bagian Bawah)</h2>
+                    <p>Ini adalah slide vertikal tersembunyi!</p>
+                </section>
+            </section>
+
+            <!-- SLIDE 4: Menampilkan Kode Pemrograman -->
+            <section>
+                <h2>Contoh Kode</h2>
+                <pre><code class="language-javascript">
+function sapa() {
+    console.log("Halo Dunia!");
+}
+                </code></pre>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Script Utama Reveal.js -->
+    <script src="https://cloudflare.com"></script>
+    <script>
+        // Inisialisasi presentasi
+        Reveal.initialize({
+            hash: true, // Membuat URL berubah sesuai nomor slide
+            controls: true, // Menampilkan tombol panah navigasi
+            progress: true, // Menampilkan bar progres di bawah
+        });
+    </script>
+</body>
+</html>
